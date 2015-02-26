@@ -1,0 +1,76 @@
+.main {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.main-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.main-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.todo .box-logo {
+    margin: 30px 0;
+}
+.todo .box-logo img {
+    display:block;
+    margin:auto;
+}
+
+.todo .todos {
+
+}
+
+.todos .left {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+.todos .right {
+    float: right;
+    width: 75%;
+}
+
+.todos .right .addItem input {
+    width: 70%;
+}
+.todos .right .addItem button {
+    width: 20%;
+}
+
+.todos .right .items {
+    list-style-type: none;
+    padding: 0;
+}
+.todos .right .items .completed {
+    color: #D8D8D8;
+    text-decoration: line-through;
+}
+
+
+/* Smartphones-portrait */
+@media only screen and (max-width : 599px) and (orientation: portrait) {
+    .game {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+/* Smartphones-landscape */
+@media only screen and (max-width : 599px) and (orientation: landscape) {
+    .game {
+        height: 280px;
+        width: 320px;
+        margin: 0 auto;
+    }
+}

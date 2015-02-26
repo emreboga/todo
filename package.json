@@ -1,0 +1,13 @@
+{
+  "name": "Todos",
+  "version": "0.1.0",
+  "repository": "<repository link here>",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "deploy": "git subtree push --prefix build origin gh-pages"
+  }
+}
